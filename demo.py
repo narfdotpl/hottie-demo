@@ -9,6 +9,9 @@ from hottie import hot
 @hot
 class DemoClass(object):
 
+    def __init__(self):
+        pass
+
     def demo_method(self):
         print 'edit demo_method'
 
